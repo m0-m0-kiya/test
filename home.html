@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta http-equiv="Content-Style-Type" content="text/css" />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script type="text/javascript" src="js/jquery.jInvertScroll.js"></script>
+      <script type="text/javascript" src="script.js"></script>
+      <link rel="stylesheet" type="text/css" href="home.css">
+      <title>HOME</title>
+  <body>
+   <div id="image-wrap">
+
+ <div id="icon">
+   <img src="iconzen.png" style="width:30%; height:120px;">
+  </div>
+
+    
+      
+  <header id="header-wrapper">
+   <!--追加　検索機能　LOGIN後LOGOUT-->
+   <ul>  
+     <li><a href='<s:url action="LoginAction"/>'>ログイン</a></li>
+     <li><a href='<s:url action="ProductListAction"/>'>商品一覧</a></li>
+     <li><a href='<s:url action="MyPageAction"/>'>マイページ</a></li>
+     <li><a href='<s:url action="cart.jsp"/>'>カート</a></li>
+   </ul>
+  </header>   
+       
+<div id="back"></div><!--背景色に使いたいだけの要素-->
+<!--全ページ共通-->  
+       
+       <!-- mypage　ここから -->
+      <div class="mypage">
+          <h2 class="heading">お客様ページ</h2>
+          <p>いつもありがとうございます。こちらのﾍﾟｰｼﾞから会員様情報のご確認をすることができます。
+          </p>
+          <form action="">
+              <table class="table">
+                  <tbody>
+<tr>
+
+<th>姓</th>
+<td>
+  <input type="text" name="sex" size="50"> 
+    </td>
+                      </tr>
+                      <tr>
+<th>名</th>
+<td>
+<input type="text" name="name" size="50">
+           </td>
+</tr>
+<tr>
+<th>性ふりがな</th>
+<td>
+<input type="text" name="sex furigana" size="50">
+    </td>
+                      </tr>
+
+<tr>
+<th>名ふりがな</th>
+<td>
+<input type="text" name="name furigana" size="50">
+</td>
+</tr>
+
+<tr>
+<th>性別</th>
+<td>
+<input type="radio" name="gender" value="man">男性
+<input type="radio" name="gender" value="woman">女性
+    </td>
+                      </tr>                      
+<tr>
+<th>メールアドレス</th>
+<td>
+    <input type="text" name="mail" size="50">
+    </td>
+                      </tr>
+                      <tr>
+<th>ログインID</th>
+<td>
+<input type="text" name="loginId" size="50">
+                          </td>
+                      </tr>
+
+<tr>
+<th>ログインPASS</th>
+<td>
+<input type="text" name="loginPass" size="50">
+    </td>
+                      </tr>
+</table>
+              <div class="text-center">
+                  <button type="submit" class="button">購入履歴</button>
+                  <button type="submit" class="button">ログアウト</button>
+                  <button type="submit" class="button">Home</button>
+              </div>
+          </form>
+      </div>
+
+   
+   <!--フッターはここから-->
+ 
+       <footer id="footer-menu">
+   <div id="inquiry"><a href='<s:url action="InquiryAction"/>'>お問い合わせ</a></div>
+   <div id="company">&copy;ZEN</div>
+  </footer>
+      </div>
+    </body>
+    </head>
+</html>

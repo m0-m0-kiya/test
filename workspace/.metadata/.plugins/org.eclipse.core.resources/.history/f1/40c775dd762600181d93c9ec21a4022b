@@ -1,0 +1,7 @@
+package com.internousdev.webproj.action;
+
+import sun.org.mozilla.javascript.internal.JavaScriptException;
+
+public class index extends JavaScriptException {
+
+}

@@ -1,0 +1,211 @@
+@font-face{
+    font-family: 'hannari';
+    src: url("./hannari/hannari.otf") 
+        format('opentype'); 
+}
+#back{ 
+    position:absolute;
+    left:230px;
+    top:160px;
+    width:70%;
+    height:460px;
+    background-color:rgba(255,255,255,0.5);
+    z-index: -10;/*他の要素の上に背景色が来ないようにする*/
+}
+
+*{
+    margin:0px;
+    padding:0px;
+}
+
+html{
+    height:100%;
+    
+}
+body{
+    height:100%;
+    margin:0 auto;
+    display:block;
+    
+}
+
+#image-wrap{
+	position:absolute;
+	background-image:url("backhome.jpg");
+	background-size:cover;
+    display:block;
+    margin:0;
+    padding:0;
+    width: 100%;
+    height:850px;
+    z-index:0;
+}
+
+#header-wrapper{
+	position:absolute;
+    left:150px;
+    top:30px;
+    width:80%;
+    border-bottom:1px solid black;
+}
+
+#icon{
+    position:absolute;
+    top:15px;
+    left:30px;
+}
+
+header ul{
+	clear:both;
+    float:left;
+}
+
+header li{
+	float:left;
+	line-height:50px;
+	list-style:none;    
+	padding-left:100px;
+    font-family:'hannari';
+	font-size:180%;
+	
+}
+
+header a{
+    color:black;
+    text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer-menu{
+	position:absolute;
+    bottom:0px;
+	width:100%;
+    height:50px; 
+    background-color:white;
+}
+
+
+
+#inquiry{
+    position:absolute;
+	left:90px;
+    line-height:50px;
+}
+
+footer a{
+    color:black;
+    font-family:'hannari';
+    font-size:120%; 
+    text-decoration:none;
+}
+
+#company{
+    position:absolute;
+    right:90px;
+    line-height:50px;
+    font-family:'hannari';
+    font-size:120%; 
+    color:black;
+}
+
+    
+    /*見出し*/
+    .heading{
+    font-size:18px;/*フォントの大きさ*/
+    border: 1px solid #ccc;/*したのボーダー*/
+    margin-bottom: 15px;
+    padding:8px 15px;
+    text-align:center; 
+    }
+h3{
+    text-align: center;
+}
+    /*お問い合わせ*/
+    .resetpassword p {
+    font-size:10px;
+    }
+
+    .resetpassword form{
+    margin-top:20px;
+    }
+
+    .resetpassword input,
+    .resetpassword select
+    {
+    padding: 5px 6px;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px #ddd;
+    vertical-align: middle;
+    box-sizing: border-box;
+    }
+    .text-center{
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 8px 15px;
+
+    }
+
+    table{
+    border-collapse: collapse;
+    border-spacing:0;
+    border: 1px solid #cbcbcb;
+    width: 100%;
+    box-sizing: border-box;
+    }
+
+table td{
+    border-left:1px solid #cbcbcb;
+    border-bottom:1px solid #cbcbcb;
+    font-family:"Hiragino kaku Gothic ProN","メイリオ",sans-serif;
+    font-size:13px;
+    margin:0;
+    padding:10px 13px;
+}
+
+table th{
+    border-left:1px solid #cbcbcb;
+border-bottom:1px solid #cbcbcb;
+font-family:"Hiragino Kaku Gothic ProN","メイリオ", sans-serif; 
+font-size: 13px;
+margin: 0;
+padding: 10px 13px;
+    
+}
+
+table th{
+background-color:black;
+color:white;
+text-align:center;
+white-space:nowrap;
+}
+
+
+.mypage{
+    position:absolute;
+    top:170px;
+    left:300px;
+}
+    
+
+
+
+
+
+
+
+
+
+
